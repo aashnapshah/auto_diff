@@ -1,0 +1,26 @@
+[project]
+name = "autoDiff_team15_2022"
+version = "1.0.2"
+authors = [
+  { name="Rachel Petherbridge", email="rachelpetherbridge@g.harvard.edu" },
+  { name="Katherine Keller", email="katherinekeller@g.harvard.edu"},
+  { name="Aashna Shah", email="aashnashah@g.harvard.edu"},
+  { name="David Paquette", email="davidpaquette@college.harvard.edu"}
+]
+description = "This package implements forward and reverse mode auto-differentiation"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = ["numpy"]
+
+[build-system]
+requires = ["setuptools>=61.0","wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+"Homepage" = "https://code.harvard.edu/CS107/team15/"
